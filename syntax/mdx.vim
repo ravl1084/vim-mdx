@@ -24,7 +24,7 @@ syn keyword mdxKeyword ascendants average axis basc bdesc before
 syn keyword mdxKeyword before_and_after bottomcount bottompercent bottomsum by
 syn keyword mdxKeyword cache calculationcurrentpass calculationpassvalue
 syn keyword mdxKeyword cellformulasetlist chapters children closingperiod
-syn keyword mdxKeyword coalesceempty column columns correlation count cousin
+syn keyword mdxKeyword coalesceempty column columns constrained correlation count cousin
 syn keyword mdxKeyword covariance covariancen createpropertyset
 syn keyword mdxKeyword createvirtualdimension crossjoin current currentcube
 syn keyword mdxKeyword currentmember default_member defaultmember desc
@@ -104,7 +104,7 @@ if version >= 508 || !exists("did_mdx_syn_inits")
   HiLink mdxStatement  Statement
   HiLink mdxString     String
   HiLink mdxTodo       Todo
-  HiLink mdxIdentifier Normal
+  HiLink mdxIdentifier Identifier
 
   delcommand HiLink
 endif
